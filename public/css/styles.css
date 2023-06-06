@@ -1,0 +1,47 @@
+
+h1.left {
+    float: left;
+}
+h1.right {
+    float: right;
+}
+h1.bold {
+    font-weight: bold;
+}
+h1.small {
+    font-size: 12px;
+}
+h1.text-center {
+    text-align: center;
+}
+p {
+    padding-bottom: 8px;
+}
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
+
+button.btn-warning {
+  display: block;
+  margin: 0 auto;
+}
+button.btn-danger {
+  display: block;
+  margin: 0 auto;
+}
+button.btn-info {
+  display: block;
+  margin: 0 auto;
+}
+/* .container {
+  text-align: center;
+} */
+.container button {
+  display: inline-block;
+}
+.notification.error {
+  background-color: red;
+}
+
+.table-row {
+  cursor: pointer;
+}
